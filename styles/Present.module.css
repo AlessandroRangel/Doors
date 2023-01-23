@@ -1,0 +1,36 @@
+.present {
+    display: flex;
+    position: relative;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    width: 100px;
+    height: 25px;
+    background-color: #7aa944;
+}
+
+.body {
+    width: 90px;
+    height: 60px;
+    background-color: #5c7e32;
+}
+
+.laco1, 
+.laco2 {
+    background-color: red;
+    position: absolute;
+}
+
+.laco1 {
+    width: 15px;
+    height: 85px;
+}
+
+.laco2 {
+    width: 90px;
+    height: 15px;
+    top: 40px;
+}
